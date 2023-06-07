@@ -6,6 +6,7 @@ export interface Character {
   alive: boolean;
   communicate: string;
   tvShow: string;
+  emoji: string;
 }
 export interface King extends Character {
   rulingYears: number;
