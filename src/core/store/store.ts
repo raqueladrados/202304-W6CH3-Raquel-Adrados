@@ -1,4 +1,5 @@
 import { Action, ThunkAction, configureStore } from "@reduxjs/toolkit";
+import { charactersReducer } from "../../redux/reducer";
 
 export const store = configureStore({
   reducer: {
